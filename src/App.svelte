@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import logo from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
   import {el} from '@elemaudio/core';
