@@ -6,8 +6,8 @@
 
   core.on('load', function () {
     core.render(
-            el.mul(0.3, el.cycle(440)),
-            el.mul(0.3, el.cycle(440)),
+            el.mul(0.3, el.cycle(113)),
+            el.mul(0.3, el.cycle(113 * 1.618)),
     );
   });
 
