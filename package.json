@@ -1,0 +1,24 @@
+{
+  "name": "new-svelte-vite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "bulma": "^0.9.4",
+    "sass": "^1.53.0",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.7",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@elemaudio/core": "^1.0.5",
+    "@elemaudio/plugin-renderer": "^1.0.6",
+    "vite-plugin-mkcert": "^1.7.2"
+  }
+}
