@@ -1,2 +1,10 @@
 /* Variables and mixins declared here will be available in all other SCSS files */ /* https://github.com/jgthms/bulma/issues/1293 */
 $body-overflow-y: auto;
+
+
+// Def some globals
+$gradient-summer: linear-gradient(135deg, #a0a0a0 30%, #a98f71 100%);
+
+
+// Override some Bulma globals
+$primary: #164342;

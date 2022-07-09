@@ -14,7 +14,7 @@
   core.initialize();
 </script>
 
-<main>
+<main class="container" style="transform: scale(0.9)">
   <img src={logo} alt="Svelte Logo" />
   <h1>Hello world!</h1>
 
@@ -30,6 +30,7 @@
     the officially supported framework, also powered by Vite!
   </p>
 </main>
+
 
 <style>
   :root {
